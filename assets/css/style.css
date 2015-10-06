@@ -5,7 +5,7 @@
  * Project Name: NYC Design
  * Version: 1.0
  * Date: 04-20-2014
- * URL: 
+ * URL:
  */
 
 
@@ -79,7 +79,7 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, h7 {
 	font-family: "Oswald", sans-serif;
 	font-weight: 300;
 }
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 .menu a > i {
 	float: left;
 	display: inline-block;
-	vertical-align: middle; 
+	vertical-align: middle;
 	text-align: left;
 	width: 25px;
 	font-size: 14px;
@@ -186,6 +186,16 @@ h1, h2, h3, h4, h5, h6 {
 		-ms-transition: all .1s ease-in-out;
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
+}
+
+video {
+    width:150px;
+    height:150px;
+    overflow:hidden;
+    border-radius: 150px 150px 150px 150px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
 }
 
 /* Push the body after clicking the menu button */
@@ -257,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -458,7 +468,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-transition: opacity 0.4s;
   -o-transition: opacity 0.4s;
   transition: opacity 0.4s;
-  
+
 }
 
 .project:hover .photo-wrapper {
